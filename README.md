@@ -29,7 +29,7 @@ La estructura del repositorio es la siguiente:
 
 1. Clona este repositorio en tu máquina local utilizando el siguiente comando:
    ```bash
-   git clone [https://github.com/tu_usuario/tu_repositorio.git](https://github.com/delgados-coder/CILSA.git)
+   git clone https://github.com/delgados-coder/CILSA.git
    ```
 4. Sigue las instrucciones específicas de cada ejercicio.
 
