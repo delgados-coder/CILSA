@@ -1,3 +1,4 @@
+    <body>
     <h1>Comparación de Servicios de Hosting</h1>
     <div class="principal">
         <div class="columna">
