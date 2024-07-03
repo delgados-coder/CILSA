@@ -3,7 +3,6 @@
     <div class="principal">
         <div class="columna">
             <h2>000webhost</h2>
-            <ul>https://github.com/delgados-coder/CILSA/blob/main/clase3/README.md
                 <li><strong>Costo:</strong> Gratuito</li>
                 <li><strong>Espacio en Disco:</strong> 300 MB</li>
                 <li><strong>Ancho de Banda:</strong> 3 GB por mes</li>
