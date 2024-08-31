@@ -1,3 +1,16 @@
+## Índice
+
+1. [Presentación](#presentación)
+2. [Simulación del Cliente y su Pedido](#simulación-del-cliente-y-su-pedido)
+3. [Resumen](#resumen)
+4. [Modelo Entidad-Relación](#modelo-entidad-relación)
+   - [Entidades y Atributos](#entidades-y-atributos)
+   - [Relaciones](#relaciones)
+5. [Diagramas del Proyecto](#diagramas-del-proyecto)
+6. [Elección del Motor de Base de Datos](#elección-del-motor-de-base-de-datos)
+7. [Comandos SQL para la Creación de Tablas](#comandos-sql-para-la-creación-de-tablas)
+8. [Comandos SQL para las Acciones CRUD](#comandos-sql-para-las-acciones-crud)
+
 # To-Do List Application
 
 ## Presentación
@@ -160,3 +173,5 @@ WHERE ID_Tarea = 1;
 DELETE FROM Tarea
 WHERE ID_Tarea = 1;
 ```
+
+
