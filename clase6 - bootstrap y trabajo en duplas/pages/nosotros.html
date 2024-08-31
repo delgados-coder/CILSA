@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/nosotros.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Quienes somos</title>
+</head>
+
+<body>
+
+  <nav class="navbar nav-fill navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">
+        <img src="../imgs/logo2.png" alt="" width="40" height="34">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav nav-fill">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quienes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div>
+    <h2 class="m-4 text-center">Conocenos</h2>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card" style="width: 100%;">
+          <img src="https://illustrations.popsy.co/sky/genius.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Delgado Santiago</h5>
+            <p class="card-text">
+              ¡Hola! Soy Santiago, un apasionado Programador Full Stack.
+              Mi experiencia abarca desde el desarrollo backend con PHP 8 y Java SE hasta el frontend con CSS, JS y
+              Bootstrap.
+              Me encanta la lógica intrínseca del Backend y siempre estoy en busca de nuevos retos y aprendizajes.
+              Soy un autodidacta de corazón y disfruto colaborando con equipos diversos de desarrolladores de distintas
+              disciplinas y tecnologías.
+              Creo firmemente en "Menos código, más impacto".
+            </p>
+            <a href="#" class="btn btn-primary" onclick="openContactForm('Delgado Santiago')">Contactar</a>
+          </div>
+        </div>
+      </div>
+<!-- modificacion -->
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card" style="width: 100%;">
+          <img src="https://illustrations.popsy.co/sky/student-in-the-classroom.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Laura Belen Yachelini</h5>
+            <p class="card-text">
+              ¡Hola! Soy Laura, una entusiasta del desarrollo móvil y la tecnología.
+              Mi viaje empezó como autodidacta en el mundo del desarrollo mobile iOS.
+              Lo que comenzó como una curiosidad pronto se convirtió en una pasión.
+              Actualmente, estoy profundizando en desarrollo mobile en iOS con Swift y SwiftUI,
+              y también tengo conocimientos en desarrollo web con HTML, CSS, Javascript, y Vue.JS.
+              Además, soy estudiante de Análisis de Sistemas.
+            </p>
+            <a href="#" class="btn btn-primary" onclick="openContactForm('Laura Belen Yachelini')">Contactar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- modificacion -->
+
+<!-- Este es un modal -->
+  <div class="modal fade" id="contactFormModal" tabindex="-1" aria-labelledby="contactFormModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactFormModalLabel">Contact Form</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="recipientName">Para:</label>
+              <input type="text" class="form-control" id="recipientName" readonly>
+            </div>
+            <div class="form-group">
+              <label for="senderName">Tu nombre:</label>
+              <input type="text" class="form-control" id="senderName" required>
+            </div>
+            <div class="form-group">
+              <label for="senderEmail">Tu Email:</label>
+              <input type="email" class="form-control" id="senderEmail" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje:</label>
+              <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">EnviaR</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="../scripts/main.js"></script> 
+
+  <!-- agregue codigo para el modal -->
+  <script src="../scripts/modal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>

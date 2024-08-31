@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Actividad CILSA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar nav-fill navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">
+        <img src="imgs/logo2.png" alt="" width="40" height="34">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav nav-fill">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/nosotros.html">Quienes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="text-center mb-4">Presentación del Trabajo Práctico</h1>
+            <p class="lead text-center">
+                Este proyecto fue realizado por Santiago Delgado y Laura Yache para el CILSA, una Organización No Gubernamental (O.N.G.) de bien público.
+            </p>
+            <br><br><br>
+            <h2 class="text-center mb-4">CILSA</h2>
+            <p class="text-center">
+                CILSA cuenta con presencia institucional en Santa Fe, Ciudad Autónoma de Buenos Aires, Córdoba, Rosario, La Plata, Mar del Plata. A través de convenios con otras ONG´S, llega a Tucumán, Cipolletti y Trelew.
+            </p>
+            <h3 class="text-center mb-4">Objetivos</h3>
+            <ul class="list-unstyled">
+                <li>Generar conciencia en la comunidad sobre la importancia de construir una sociedad inclusiva y promover su participación activa.</li>
+                <li>Mejorar la calidad de vida de las personas con discapacidad con la entrega gratuita de un elemento ortopédico que facilite su movilidad.</li>
+                <li>Brindar contención y trabajar por los derechos de los niños provenientes de familias de escasos recursos económicos.</li>
+                <li>Acercar la posibilidad a personas con discapacidad de acceder a una formación académica superior, a una capacitación profesional y al conocimiento de las herramientas tecnológicas, promoviendo así su inclusión social y laboral.</li>
+                <li>Promover el desarrollo de actividades deportivas y recreativas como medio de inclusión social.</li>
+            </ul>
+            <p class="lead text-center">
+                Todo esto fue realizado como actividad pedida por CILSA para la carrera de Full Stack Developer.
+            </p>
+        </div>
+    </div>
+
+    <div class="row carrusel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imgs/imagen1.png" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/imagen2.png" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/imagen3.png" class="d-block w-100" alt="Imagen 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</main>
+
+  <div class="container-fluid row fixed-bottom">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-5 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <img src="imgs/logo2.png" width="30" height="24"></img>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">© Fullstack Cilsa 2024</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><img src="imgs/facebook.png" class="bi" width="24"
+              height="24"></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><img src="imgs/twitter-x.png" class="bi" width="24"
+              height="24"></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><img src="imgs/instagram.png" class="bi" width="24"
+              height="24"></a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="./scripts/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

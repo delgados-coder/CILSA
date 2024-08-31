@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #4585BD;
+}
+
+.featured-product {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.featured-product img {
+    aspect-ratio: 1;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+.featured-product .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter {
+    text-align: center;
+    padding: 20px 0;
+}

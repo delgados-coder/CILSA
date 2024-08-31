@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos Destacados - Home Color Pinturerías</title>
+   
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- bootstrap ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- ESTILOS PERSONALIZSDOS -->
+    <link rel="stylesheet" href="./public/styles/destacados.css">
+</head>
+<body>
+
+    <!-- ----------------INICIO / SECCION ASIGNADA PARA SANTIAGO----------------------- -->
+    <div class="container mt-4">
+        <h2 class="text-left" style="color: var(--primary-color);">PRODUCTOS dESTACADOS</h2>
+        <div class="row">
+            <!-- TARJETA N1 -->
+            <div class="col-md-4">
+                <div class="featured-product">
+                    <img src="./assets/imgs/prod1.jpg" alt="Producto 1">
+                    <div class="overlay">
+                        <h3>Combos Especiales</h3>
+                        <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
+                    </div>
+                </div>
+            </div>
+            <!-- TARJETA N°2 -->
+            <div class="col-md-4">
+                <div class="featured-product">
+                    <img src="./assets/imgs/prod2.png" alt="Producto 2">
+                    <div class="overlay">
+                        <h3>Lineas Especiales</h3>
+                        <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
+                    </div>
+                </div>
+            </div>
+            <!-- TARJETA N|3 -->
+            <div class="col-md-4">
+                <div class="featured-product">
+                    <img src="./assets/imgs/prod3.jpg" alt="Producto 3">
+                    <div class="overlay">
+                        <h3>Renova tus ambientes</h3>
+                        <button class="btn btn-primary btn-ver-ofertas">Ver ofertas</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LA SUSCRIPCION AL CORREO -->
+        <div class="newsletter mt-4">
+            <i class="bi bi-mailbox-flag" style="font-size: 2rem; color: var(--primary-color);"></i>
+            <h4>Suscribete a nuestro boletín</h4>
+            <input type="email" class="form-control w-50 mx-auto border border-primary" placeholder="Ingresa tu email" id="btn-suscribirse">
+            <button class="btn btn-primary mt-2">Suscribirse</button>
+            <p>¡Se el primero en conocer ofertaa semanales!</p>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./public/destacados.js"></script>
+    <!-- ----------------FIN / SECCION ASIGNADA PARA SANTIAGO----------------------- -->
+
+</body>
+</html>
