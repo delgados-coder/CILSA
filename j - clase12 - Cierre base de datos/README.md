@@ -5,11 +5,12 @@
 3. [Resumen](#resumen)
 4. [Modelo Entidad-Relación](#modelo-entidad-relación)
    - [Entidades y Atributos](#entidades-y-atributos)
-   - [Relaciones](#relaciones)
+   - [Relaciones](#Relaciones)
 5. [Diagramas del Proyecto](#diagramas-del-proyecto)
 6. [Elección del Motor de Base de Datos](#elección-del-motor-de-base-de-datos)
 7. [Comandos SQL para la Creación de Tablas](#comandos-sql-para-la-creación-de-tablas)
 8. [Comandos SQL para las Acciones CRUD](#comandos-sql-para-las-acciones-crud)
+9. [Base De Datos](#Base-De-Datos)
 
 # To-Do List Application
 
@@ -43,7 +44,7 @@ El cliente no tiene conocimientos técnicos, por lo que describe las funcionalid
 
 ## Modelo Entidad-Relación
 
-**Entidades y Atributos:**
+### **Entidades y Atributos:**
 
 1. **Usuario:**
    - `ID_Usuario` (Clave primaria, INTEGER, AUTOINCREMENT)
@@ -75,20 +76,35 @@ El cliente no tiene conocimientos técnicos, por lo que describe las funcionalid
    - `Descripcion` (TEXT)
    - `ID_Usuario` (INTEGER, Clave foránea)
 
-**Relaciones:**
+### **Relaciones**:
 
-- Un **Usuario** puede tener muchas **Tareas**.
-- Un **Usuario** puede tener muchas **Listas de Tareas**.
-- Una **Tarea** pertenece a un **Usuario**.
+#### Usuario - Tarea:
+
+- Un **Usuario** puede tener múltiples **Tareas**.
+- Cada **Tarea** pertenece a un solo **Usuario**.
+
+#### Tarea- Categoría:
+
 - Una **Tarea** puede pertenecer a una **Categoría**.
+- Una **Categoría** puede tener múltiples **Tareas**.
+
+#### Tarea - Lista de Tareas:
+
 - Una **Tarea** puede pertenecer a una **Lista de Tareas**.
+- Una Lista de **Tareas** puede tener múltiples **Tareas**.
+
+#### Usuario - Lista de Tareas:
+
+- Un **Usuario** puede tener múltiples **Listas de Tareas**.
+- Cada **Lista de Tareas** pertenece a un solo **Usuario**.
+
 
 ## Diagramas del Proyecto
 
 A continuación, se muestran los diagramas que representan el modelo entidad-relación y su estructura en la base de datos.
 
-![Diagrama Entidad-Relación](diagrama1.png)
-![Diagrama Estructura de Tablas](diagrama2.png)
+![Diagrama Entidad-Atributos](diagrama1.png)
+![Diagrama Estructura Ent-Rel](diagrama2.png)
 ![Diagrama Relaciones](diagrama3.png)
 
 ## Elección del Motor de Base de Datos
@@ -144,8 +160,9 @@ CREATE TABLE Tarea (
     FOREIGN KEY (ID_Categoria) REFERENCES Categoria(ID_Categoria),
     FOREIGN KEY (ID_Lista) REFERENCES Lista_de_Tareas(ID_Lista)
 );
-
 ```
+![Panel de Archivos](diagrama4.png)
+
 ## Comandos SQL para las Acciones CRUD
 Aquí se presentan los comandos SQL para realizar las acciones de creación, listado, modificación y eliminación de tareas:
 
@@ -174,4 +191,7 @@ DELETE FROM Tarea
 WHERE ID_Tarea = 1;
 ```
 
+## Base De Datos:
+Se deja la base de datos Mostrada en la imagen anteior
+![Base de Datos](ToDoDB)
 
