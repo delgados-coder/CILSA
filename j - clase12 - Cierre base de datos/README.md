@@ -15,7 +15,7 @@
 # To-Do List Application
 
 ## Presentación
-Este proyecto fue realizado por **Santiago Delgado** para el curso **Desarrollador Full Stack** en el **Centro de Formación CILSA**. El objetivo del proyecto es desarrollar una aplicación web de Lista de Tareas (To-Do List) que permita a los usuarios gestionar sus tareas diarias de manera eficiente.
+Este **proyecto Colaborativo** fue realizado por **Micaela Flaherty**, **Santiago Delgado Coman** y **Laura Belén Yachelini** para el curso **Desarrollador Full Stack** en el **Centro de Formación CILSA**. El objetivo del proyecto es desarrollar una aplicación web de Lista de Tareas (To-Do List) que permita a los usuarios gestionar sus tareas diarias de manera eficiente.
 
 ## Simulación del Cliente y su Pedido
 **Situación Hipotética:**
